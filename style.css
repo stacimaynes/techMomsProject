@@ -133,11 +133,21 @@
   font-weight: bold;
   text-align: left;
   padding-left: 20px;
+  float: right;
 }
 
 .paragraphAboutUs {
   color: #00204a;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.nameAboutUs {
+  color: #00204a;
+  font-size: 21px;
   font-weight: bold;
   text-align: left;
   padding-left: 40px;
@@ -288,9 +298,10 @@ button {
 }
 
 .socialMedia {
-  width: 58px; 
-  height: 50px;
+  width: 60px; 
+  height: 40px;
   padding-left: 20px;
+  float: left;
 }
 
 img.avatar {
@@ -371,6 +382,40 @@ span.psw {
   .cancelbtn {
      width: 40%;
   }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 33px;
+  width: 45px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #8F643A;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #8F643A;
+  color: white;
+}
+
+.fa-instagram {
+  background: #8F643A;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #8F643A;
+  color: white;
 }
 
 

@@ -68,6 +68,13 @@
   background-color: #455b80d4;
 }
 
+.bathroomMaintenance {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+}
+
 .bedroomMaintenance {
   color: white;
   font-size: 40px;
@@ -125,15 +132,30 @@
   font-size: 40px;
   font-weight: bold;
   text-align: left;
+  padding-left: 20px;
 }
 
 .paragraphAboutUs {
-  color: white;
+  color: #00204a;
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 20px;
 }
 
+.aboutImage {
+  width: 400px; 
+  height: 560px;
+  padding-left: 20px;
+}
+
+.pageImage {
+  float: left; 
+  width: 690px; 
+  height: 560px;
+  padding-right: 40px;
+}
 .contactPageSelected {
   font-weight: bold;
 }
@@ -147,6 +169,7 @@
   font-size: 40px;
   font-weight: bold;
   text-align: left;
+  padding-left: 20px;
 }
 
 .contactInformation {
@@ -154,6 +177,7 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+  padding-left: 20px;
 }
 
 .signUpFont {
@@ -184,6 +208,44 @@
   .homeContainer {
     text-align: center;
 
+  }
+
+  .pageDescription {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    vertical-align: right;
+    font-weight: bold;
+    color: #00204a;
+    font-size: large;
+    
+  }
+
+  .remindMeButton {
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    padding-right: 20px;
+  }
+
+
+  .contactInformation {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    padding-left: 20px;
+    
+  }
+
+  .authorInformation {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
   }
 
 
@@ -223,6 +285,12 @@ button {
   text-align: center;
   margin: 24px 0 12px 0;
   position: relative;
+}
+
+.socialMedia {
+  width: 58px; 
+  height: 50px;
+  padding-left: 20px;
 }
 
 img.avatar {
